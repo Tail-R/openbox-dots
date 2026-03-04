@@ -3,9 +3,9 @@
 font='monospace-14-Regular'
 monitor=-1
 
-nf='#1f2328'
+nf='#24292f'
 nb='#ffffff'
-sf='#1f2328'
+sf='#24292f'
 sb='#d1d5da'
 
 dmenu_run -fn $font -m $monitor -nb $nb -nf $nf -sb $sb -sf $sf

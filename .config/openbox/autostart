@@ -2,7 +2,7 @@ xrdb -merge ~/.Xresources &
 
 ~/.fehbg &
 
-# tint2 &
+tint2 -c ~/.config/tint2/default-light
 
 (sleep 1s && nm-applet) &
 (sleep 1s && fcitx5) &
