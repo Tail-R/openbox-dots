@@ -1,0 +1,177 @@
+/*
+    Colors
+ */
+
+/* Base */
+@define-color foreground #7b6678;
+@define-color background #ffffff;
+
+@define-color black   #906e8b;
+@define-color red     #dcbeca;
+@define-color green   #d2e5a8;
+@define-color yellow  #fffbcc;
+@define-color blue    #c4cdf3;
+@define-color magenta #fddce9;
+@define-color cyan    #e1efff;
+@define-color white   #e7e3e7;
+
+/* Extra */
+@define-color light-cream #ffffee;
+
+* {
+    all: unset;
+}
+
+.root-box {
+    background: @background;
+}
+
+/*
+    Header
+ */
+.header {
+    min-height: 64px;
+
+    font-family: MochiyPopOne;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 0px 0px 4px @red;
+    color: @yellow;
+
+    background-image: url("header.jpg");
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 4px;
+
+    margin: 4px 4px 0px 4px;
+}
+
+/*
+    Top section 
+ */
+.top-box {
+    margin: 4px;
+}
+
+.user-info .name { color: @foreground; }
+.user-info .value { color: @foreground; }
+
+.user-name {
+    font-family: KosugiMaru;
+    font-size: 16px;
+    font-weight: bold;
+
+    border-bottom: 1px solid @black;
+}
+
+.uptime {
+    font-family: KosugiMaru;
+    font-size: 16px;
+    font-weight: bold;
+
+    margin-bottom: 2px;
+}
+
+.pfp-image {
+    min-width: 180px;
+    min-height: 180px;
+
+    background-image: url("pfp.jpg");
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 4px;
+}
+
+.dashboard {
+    margin-left: 4px;
+}
+
+.dashboard .title {
+    font-family: MochiyPopOne;
+    font-size: 16px;
+    font-weight: normal;
+    color: @foreground;
+    background: @white;
+
+    padding-top: 2px;
+    padding-bottom: 4px;
+    border-radius: 0px;
+}
+
+.sys-info {    
+    min-width: 200px;
+
+    padding: 4px 4px 0px 4px;
+}
+
+.sys-info .name { color: @foreground; }
+.sys-info .value { color: @foreground; }
+
+.mem-usage,
+.bat-level,
+.volume,
+.brightness,
+.net-status {
+    font-family: KosugiMaru;
+    font-size: 16px;
+    font-weight: bold;
+    
+    border-bottom:  1px solid @black;
+}
+
+.decor {
+    min-height: 36px;
+    background-image: url("decor.png");
+    background-size: contain;
+    background-position: center;
+
+    border-radius: 4px;
+}
+
+/*
+    Middle section 
+ */
+.center-box {
+}
+
+.mpris-metadata {
+    min-height: 32px;
+
+    font-family: MochiyPopOne;
+    font-size: 14px;
+    color: @foreground;
+
+    background: @light-cream;
+
+    border-top: 1px solid @blue;
+    border-bottom: 1px solid @blue;
+    padding: 4px;
+}
+
+/*
+    Bottom section
+ */
+.bottom-box {
+    background: @cyan;
+
+    padding: 4px;
+}
+
+.bottom-box button {
+    font-family: MochiyPopOne;
+    font-size: 14px;
+    color: @foreground;
+
+    background: @background;
+
+    border: 1px solid;
+    border-top-color: white;
+    border-right-color: silver;
+    border-bottom-color: silver;
+    border-left-color: white;
+
+    padding: 4px;
+}
+
