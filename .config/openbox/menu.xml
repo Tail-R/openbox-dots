@@ -22,6 +22,7 @@
       </action>
     </item>
  
+    <!-- Applications submenu -->
     <menu id="applications" label="Applications">
       <item label="Inkscape">
         <action name="Execute">
@@ -49,6 +50,7 @@
         </action>
       </item>
 
+      <!-- Screenshot submenu -->
       <menu id="screenshot" label="Screenshot">
         <item label="entire-screen">
           <action name="Execute">
@@ -88,20 +90,31 @@
     <item label="Restart">
       <action name="Restart"/>
     </item>
+    <item label="Exit">
+      <action name="Exit"/>
+    </item>
 
     <separator/>
 
-    <item label="Lock">
-    </item> 
-     
-    <item label="Exit">
-      <action name="Exit"/>
-    </item> 
-    <item label="Shutdown">
-      <action name="Execute">
-        <command>systemctl poweroff</command>
-      </action>
-    </item>
+    <!-- System -->
+    <menu id="system" label="System">
+      <item label="Sleep">
+        <action name="Execute">
+          <command>systemctl suspend</command>
+        </action>
+      </item>
+      <item label="Reboot">
+        <action name="Execute">
+          <command>systemctl reboot</command>
+        </action>
+      </item>
+      <item label="Shutdown">
+        <action name="Execute">
+          <command>systemctl poweroff</command>
+        </action>
+      </item>
+    </menu>
   </menu>
 
 </openbox_menu>
+

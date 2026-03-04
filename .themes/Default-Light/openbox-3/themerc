@@ -13,16 +13,16 @@ menu.overlap.x: -12
 menu.overlap.y: 0
 
 # Border colors
-window.active.border.color: #888888
+window.active.border.color: #cccccc
 window.active.title.separator.color: #cb2431
 window.active.client.color: #ffffff
 
-window.inactive.border.color: #888888
+window.inactive.border.color: #cccccc
 window.inactive.title.separator.color: #ffffff
 window.inactive.client.color: #ffffff
 
-menu.border.color: #888888
-osd.border.color: #888888
+menu.border.color: #cccccc
+osd.border.color: #cccccc
 
 # Titlebar colors
 window.active.label.text.color: #ffffff
@@ -51,24 +51,24 @@ window.active.button.*.bg: Solid
 window.active.button.*.color: #ffffff
 window.active.button.*.unpressed.image.color: #000000
 window.active.button.*.pressed.image.color: #aaaaaa
-window.active.button.*.disabled.image.color: #888888
-window.active.button.*.hover.image.color: #888888
+window.active.button.*.disabled.image.color: #cccccc
+window.active.button.*.hover.image.color: #cccccc
 
 # Inactive window button textures
 window.inactive.button.*.bg: Flat
 window.inactive.button.*.color: #ffffff
 window.inactive.button.*.unpressed.image.color: #ffffff
 window.inactive.button.*.pressed.image.color: #aaaaaa
-window.inactive.button.*.disabled.image.color: #888888
-window.inactive.button.*.hover.image.color: #888888
+window.inactive.button.*.disabled.image.color: #cccccc
+window.inactive.button.*.hover.image.color: #cccccc
 
 # Menu colors
 menu.title.text.color: #ffffff
-menu.items.text.color: #24292e
+menu.items.text.color: #24292f
 menu.items.disabled.text.color: #959da5
-menu.items.active.text.color: #24292e
+menu.items.active.text.color: #24292f
 menu.items.active.disabled.text.color: #959da5
-menu.separator.color: #888888
+menu.separator.color: #cccccc
 
 # Menu textures
 menu.items.bg: Flat
@@ -79,7 +79,7 @@ menu.title.bg: Solid
 menu.title.bg.color: #cb2431
 
 # OSD textures
-osd.label.text.color: #24292e
+osd.label.text.color: #24292f
 osd.bg: Solid
 osd.bg.color: #ffffff
 osd.bg.colorTo: #ffffff
