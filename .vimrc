@@ -30,7 +30,7 @@ set hlsearch
 set smartcase
 set ignorecase
 
-set spell
+set nospell
 set background=light
 
 set wildmenu
@@ -102,8 +102,9 @@ nnoremap <C-l> :vertical resize +2<CR>
 nnoremap <Leader>h ^<Left> " jump tp the start of line
 nnoremap <Leader>l $ " jump to the end of line
 
-" Disable highlighting until next search
-nnoremap <C-n> :noh<CR>
+" Enable/Disable highlighting
+nnoremap <S-s> :set spell<CR>
+nnoremap <S-n> :set nospell<CR> :noh<CR>
 
 " Echo the highlight group name
 nnoremap <S-g> :echo synIDattr(synID(line("."), col("."), 1), "name")<CR>
