@@ -1,0 +1,9 @@
+xrdb -merge ~/.Xresources &
+
+~/.fehbg &
+
+# tint2 &
+
+(sleep 1s && nm-applet) &
+(sleep 1s && fcitx5) &
+

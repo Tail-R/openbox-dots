@@ -1,0 +1,48 @@
+#include "/home/tailr/.config/X11/colors/current"
+
+!! Fonts
+Xft.dpi: 96
+Xft.antialias: true
+Xft.hinting: false
+
+! Special
+*.color16:  #ffffee
+
+!! Xterm
+XTerm.vt100.faceName: monospace
+XTerm.vt100.faceSize: 12
+XTerm.vt100.geometry: 64x32
+XTerm.vt100.scrollBar: true
+XTerm.vt100.saveLines: 4096
+XTerm.vt100.internalBorder: 0
+
+!! Urxvt
+URxvt*font: xft:IBMPlexMono:regular:size=13
+URxvt*boldFont: xft:IBMPlexMono:bold:size=13
+URxvt*italicFont: xft:IBMPlexMono:italic:size=13
+URxvt*letterSpace: 0
+URxvt*geometry: 96x32
+URxvt*scrollBar: true
+URxvt*scrollBar_right: true
+URxvt*thickness: 10
+URxvt*cursorUnderline: false
+URxvt*cursorBlink: true
+URxvt*saveLines: 4096
+URxvt*internalBorder: 4
+URxvt*urlLauncher: firefox
+URxvt*underlineURLs: true
+
+! URxvt*perl-ext-common: default,tabbed
+! URxvt.tabbed.tabbar-bg: 15
+! URxvt.tabbed.tabbar-fg: 12
+! URxvt.tabbed.tab-bg: 15
+! URxvt.tabbed.tab-fg: 0
+
+URxvt*keysym.Control-Shift-C: eval:selection_to_clipboard
+URxvt*keysym.Control-Shift-V: eval:paste_clipboard
+
+!! Sxiv
+Sxiv.font: monospace
+! Sxiv.foreground:
+! Sxiv.background:
+ 
