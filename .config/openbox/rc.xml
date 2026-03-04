@@ -28,19 +28,19 @@
   <name>Current</name>
   <!-- N: window icon, L: window label, I: iconify,
     M: maximize, C: close, S: shade, D: omnipresent -->
-  <titleLayout>LIMC</titleLayout>
+  <titleLayout>NL</titleLayout>
   
   <keepBorder>yes</keepBorder>
   <animateIconify>no</animateIconify>
   <font place="ActiveWindow">
     <name>FreeSans</name>
-    <size>14</size>
+    <size>16</size>
     <weight>bold</weight>
     <slant>normal</slant>
   </font>
   <font place="InactiveWindow">
     <name>FreeSans</name>
-    <size>14</size>
+    <size>16</size>
     <weight>bold</weight>
     <slant>normal</slant>
   </font>
@@ -74,10 +74,10 @@
   <number>4</number>
   <firstdesk>1</firstdesk>
   <names>
-    <name>Desktop 1</name>
-    <name>Desktop 2</name>
-    <name>Desktop 3</name>
-    <name>Desktop 4</name>
+    <name>1</name>
+    <name>2</name>
+    <name>3</name>
+    <name>4</name>
   </names>
   <popupTime>1000</popupTime>
 </desktops>
@@ -123,7 +123,7 @@
     <action name="Close"/>
   </keybind>
   <keybind key="W-f">
-    <action name="ToggleMaximize"/>
+    <action name="ToggleFullscreen"/>
   </keybind>
   <keybind key="W-i">
     <action name="Iconify"/>
@@ -468,11 +468,11 @@
 
 <applications>
   <application class="firefox">
-    <decor>no</decor>
+    <decor>yes</decor>
   </application>
 
   <application class="feh">
-    <decor>no</decor>
+    <decor>yes</decor>
   </application>
 </applications>
 
