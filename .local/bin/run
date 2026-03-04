@@ -1,0 +1,12 @@
+#! /usr/bin/env bash
+
+font='monospace-14-Regular'
+monitor=-1
+
+nf='#1f2328'
+nb='#ffffff'
+sf='#1f2328'
+sb='#d1d5da'
+
+dmenu_run -fn $font -m $monitor -nb $nb -nf $nf -sb $sb -sf $sf
+

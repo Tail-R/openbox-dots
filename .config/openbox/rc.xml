@@ -28,7 +28,7 @@
   <name>Current</name>
   <!-- N: window icon, L: window label, I: iconify,
     M: maximize, C: close, S: shade, D: omnipresent -->
-  <titleLayout>SILDMC</titleLayout>
+  <titleLayout>LIMC</titleLayout>
   
   <keepBorder>yes</keepBorder>
   <animateIconify>no</animateIconify>
@@ -197,7 +197,7 @@
   <!-- Keybindings for running applications -->
   <keybind key="W-d">
     <action name="Execute">
-      <command>~/Documents/run.sh</command>
+      <command>~/.local/bin/run</command>
     </action>
   </keybind>
   <keybind key="W-Return">
