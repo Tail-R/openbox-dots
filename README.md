@@ -2,9 +2,21 @@
 My personal Openbox configurations
 
 ## Screenshots
-![Soda](assets/screenshot_soda.png)
-![Default-Light](assets/screenshot_default_light.png)
-![Lavender](assets/screenshot_lavender.png)
-![Shortcake](assets/screenshot_shortcake.png)
-![Arctic](assets/screenshot_arctic.png)
+<table>
+
+<tr>
+<td><img src ="assets/screenshot_soda.png"></td>
+<td><img src ="assets/screenshot_lavender.png"></td>
+</tr>
+
+<tr>
+<td><img src ="assets/screenshot_arctic.png"></td>
+<td><img src ="assets/screenshot_shortcake.png"></td>
+</tr>
+
+<tr>
+<td><img src ="assets/screenshot_default_light.png"></td>
+</tr>
+
+</table>
 
