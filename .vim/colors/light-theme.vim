@@ -74,9 +74,9 @@ hi Identifier ctermfg=0 ctermbg=none cterm=none
 hi Function ctermfg=4 ctermbg=none cterm=none
 
 " Keywords that define logic
+hi Type ctermfg=4 ctermbg=none cterm=none
 hi Statement ctermfg=4 ctermbg=none cterm=none
 hi PreProc ctermfg=5 ctermbg=none cterm=none
-hi Type ctermfg=6 ctermbg=none cterm=none
 
 " Shell
 hi shConditional ctermfg=1 ctermbg=none cterm=none
