@@ -7,8 +7,8 @@ osd.border.width: 1
 window.client.padding.width: 0
 window.client.padding.height: 0
 window.handle.width: 8
-padding.width: 4
-padding.height: 4
+padding.width: 6
+padding.height: 6
 menu.overlap.x: -12
 menu.overlap.y: 0
 
@@ -47,20 +47,20 @@ window.inactive.grip.bg: Solid
 window.inactive.grip.bg.color: #ffffff
 
 # Active window button textures
-window.active.button.*.bg: Solid
+window.active.button.*.bg: Parentrelative
 window.active.button.*.color: #ffffff
-window.active.button.*.unpressed.image.color: #000000
-window.active.button.*.pressed.image.color: #aaaaaa
-window.active.button.*.disabled.image.color: #cccccc
-window.active.button.*.hover.image.color: #cccccc
+window.active.button.*.unpressed.image.color: #ffffff
+window.active.button.*.pressed.image.color: #cccccc
+window.active.button.*.disabled.image.color: #888888
+window.active.button.*.hover.image.color: #aaaaaa
 
 # Inactive window button textures
-window.inactive.button.*.bg: Flat
+window.inactive.button.*.bg: Parentrelative
 window.inactive.button.*.color: #ffffff
-window.inactive.button.*.unpressed.image.color: #ffffff
-window.inactive.button.*.pressed.image.color: #aaaaaa
-window.inactive.button.*.disabled.image.color: #cccccc
-window.inactive.button.*.hover.image.color: #cccccc
+window.inactive.button.*.unpressed.image.color: #24292f
+window.inactive.button.*.pressed.image.color: #cccccc
+window.inactive.button.*.disabled.image.color: #888888
+window.inactive.button.*.hover.image.color: #aaaaaa
 
 # Menu colors
 menu.title.text.color: #ffffff
