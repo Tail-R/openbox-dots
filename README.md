@@ -15,7 +15,6 @@ My personal Openbox configurations
 </tr>
 
 <tr>
-<td><img src ="assets/screenshot_default_light.png"></td>
 </tr>
 
 </table>
